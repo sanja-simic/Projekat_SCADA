@@ -48,13 +48,13 @@ namespace Modbus.ModbusFunctions
             ModbusReadCommandParameters modbusRead = this.CommandParameters as ModbusReadCommandParameters;
 
             ushort adresa = ((ModbusReadCommandParameters)CommandParameters).StartAddress;
-            ushort byte_count = response[8];//duzina
-            ushort val;//vrednost koju treba da procitamo
+            ushort byte_count = response[8];
+            ushort val;
 
             for (int i = 0; i < byte_count; i += 2)
             {
-                val = BitConverter.ToUInt16(response, 9 + i);//pretvaramo niz bitova u unit
-                val = (ushort)IPAddress.NetworkToHostOrder((short)val);//jer skidamo sa mreze
+                val = BitConverter.ToUInt16(response, 9 + i);
+                val = (ushort)IPAddress.NetworkToHostOrder((short)val);
                 ret.Add(new Tuple<PointType, ushort>(PointType.ANALOG_INPUT, adresa), val);
                 adresa++;
 
