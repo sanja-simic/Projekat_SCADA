@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|c:\\users\\sanja\\desktop\\scada projekat\\projekat_scada\\dcom\\dcom-radna-verzija\\dcom\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|c:\\users\\sanja\\desktop\\scada projekat\\projekat_scada\\dcom\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\readinputregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readinputregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RtuCfg.txt",
-              "DocumentMoniker": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\dCom\\RtuCfg.txt",
-              "RelativeDocumentMoniker": "dCom\\RtuCfg.txt",
-              "ToolTip": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\dCom\\RtuCfg.txt",
-              "RelativeToolTip": "dCom\\RtuCfg.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-13T14:04:41.359Z",
+              "Title": "ReadInputRegistersFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "ToolTip": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadInputRegistersFunction.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwDwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T14:13:02.489Z",
               "EditorCaption": ""
             }
           ]
