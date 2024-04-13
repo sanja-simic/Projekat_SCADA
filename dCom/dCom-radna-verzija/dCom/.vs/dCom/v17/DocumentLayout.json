@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|c:\\users\\sanja\\desktop\\scada projekat\\projekat_scada\\dcom\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\readdiscreteinputsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readdiscreteinputsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|c:\\users\\sanja\\desktop\\scada projekat\\projekat_scada\\dcom\\dcom-radna-verzija\\dcom\\modbus\\modbusfunctions\\readholdingregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readholdingregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReadDiscreteInputsFunction.cs",
-              "DocumentMoniker": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
-              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
-              "ToolTip": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
-              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadDiscreteInputsFunction.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAQwDsAAAA2AAAA",
+              "Title": "ReadHoldingRegistersFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "ToolTip": "C:\\Users\\Sanja\\Desktop\\SCADA projekat\\Projekat_SCADA\\dCom\\dCom-radna-verzija\\dCom\\Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwDMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T09:20:46.118Z",
+              "WhenOpened": "2024-04-13T09:28:06.279Z",
               "EditorCaption": ""
             }
           ]
