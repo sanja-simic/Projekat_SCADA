@@ -58,22 +58,17 @@ namespace ProcessingModule
 		private void Acquisition_DoWork()
 		{
             //TO DO: IMPLEMENT
-
-            //polje konfiguracije naajpotrebnije zato pre nego
-            //sto pocne akvizicija moramo ucitati sve signale koje imamo
-
             List<IConfigItem> config_items = configuration.GetConfigurationItems();
-            //hocemo da se akvizicija radi beskonacno
             while (true)
             {
                 acquisitionTrigger.WaitOne();
                 foreach (IConfigItem item in config_items)
                 {
-                    item.SecondsPassedSinceLastPoll++;//polje koje je protwklo od predhodne akvizicije
+                    item.SecondsPassedSinceLastPoll++;
                     if (item.SecondsPassedSinceLastPoll == item.AcquisitionInterval)
-                    {//doslo je do vremena za akviziciju
+                    {
                         processingManager.ExecuteReadCommand(item, this.configuration.GetTransactionId(),
-                        this.configuration.UnitAddress, item.StartAddress, item.NumberOfRegisters);//okidac za citanje akvizicionih podataka
+                        this.configuration.UnitAddress, item.StartAddress, item.NumberOfRegisters);
                         item.SecondsPassedSinceLastPoll = 0;
                     }
 
