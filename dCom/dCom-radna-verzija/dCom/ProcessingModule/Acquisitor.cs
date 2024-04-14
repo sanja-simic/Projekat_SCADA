@@ -64,14 +64,13 @@ namespace ProcessingModule
                 acquisitionTrigger.WaitOne();
                 foreach (IConfigItem item in config_items)
                 {
-                    item.SecondsPassedSinceLastPoll++;
-                    if (item.SecondsPassedSinceLastPoll == item.AcquisitionInterval)
-                    {
+                    item.SecondsPassedSinceLastPoll++; // koliko nam je vremena proslo od posljednjeg prikupljanja podataka za taj element
+                    if (item.SecondsPassedSinceLastPoll == item.AcquisitionInterval) 
+                    { // ako je brojac dostigao odredjen interval za taj element, vrijeme je da se ponovo prikupe podaci
                         processingManager.ExecuteReadCommand(item, this.configuration.GetTransactionId(),
                         this.configuration.UnitAddress, item.StartAddress, item.NumberOfRegisters);
-                        item.SecondsPassedSinceLastPoll = 0;
+                        item.SecondsPassedSinceLastPoll = 0; // nakon sto se podaci prikupe, brojac se ponovo postavi na 0 i krece novi ciklus
                     }
-
                 }
             }
         }
